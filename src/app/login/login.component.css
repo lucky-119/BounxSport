@@ -1,0 +1,257 @@
+.back1{
+  position: fixed;
+  height: 101%;
+  bottom: -1%;
+  right: -1%;
+}
+
+.back2{
+  position: fixed;
+  width: 101%;
+  bottom: -1%;
+  right: -1%;
+}
+
+.black{
+  position: fixed;
+  height: 102%;
+  bottom: -1%;
+  right: -1%;
+  opacity: 0.5;
+}
+.load{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.logo{
+  position: absolute;
+  right: 15%;
+  width: 25%;
+  top: 15%;
+  min-width: 200px;
+}
+
+.logo2{
+  position: absolute;
+  left: 15%;
+  width: 70%;
+  top: 10%;
+  min-width: 200px;
+}
+
+::placeholder{
+  color: lightgrey
+}
+
+input{
+  placeholder: none;
+  position: relative;
+  height: 50px;
+  width: 100%;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid lightgrey;
+  font-size: 16px;
+  color: white;
+  padding: 2px 2px 1px 2px;
+}
+
+input:focus{
+  placeholder.color: #68D2C4;
+  outline:none;
+  position: relative;
+  height: 50px;
+  width: 100%;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid #68D2C4;
+  font-size: 16px;
+  color: white;
+  padding: 2px 2px 1px 2px;
+}
+
+.loginbutton{
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+  outline:none;
+  padding: 12px 45px 12px 45px;
+  font-size: 20px;
+  background-color: #68D2C4;
+  border: 1px solid transparent;
+  font-weight: bold;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.loginbutton:hover{
+  cursor: pointer;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+  border: 2px 2px 2px 2px;
+  border-color: #68D2C4;
+  padding: 12px 45px 12px 45px;
+  font-size: 20px;
+  background-color: transparent;
+  font-weight: bold;
+  border: 1px solid #68D2C4;
+  color: #68D2C4;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.registerButton{
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+  outline:none;
+  padding: 12px 35px 12px 35px;
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.registerButton:hover{
+  cursor: pointer;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+  outline:none;
+  padding: 12px 35px 12px 35px;
+  font-size: 16px;
+  background-color: grey;
+  border: none;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.forgotPassword{
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+  color: white;
+  font-size: 15px;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.forgotPassword:hover{
+  cursor: pointer;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+  color: #68D2C4;
+  font-size: 15px;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.vmsg{
+  padding: 1px 5px 1px 15px;
+  position: static;
+  background-color: #F1585A;
+  color: white;
+  max-width: 400px;
+}
+.cross{
+  position: relative;
+  left: 94%;
+  top: 30px;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.paragraph{
+  max-width: 300px;
+  word-wrap: break-word;
+  font-size: 12px;
+}
+
+.submitbutton{
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+  outline:none;
+  padding: 12px 45px 12px 45px;
+  font-size: 20px;
+  background-color: #212121;
+  border: 1px solid transparent;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.submitbutton:hover{
+  cursor: pointer;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+  border: 2px 2px 2px 2px;
+  border-color: #68D2C4;
+  padding: 12px 45px 12px 45px;
+  font-size: 20px;
+  background-color: transparent;
+  font-weight: bold;
+  border: 1px solid #68D2C4;
+  color: #68D2C4;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.loginButton2{
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+  outline:none;
+  padding: 12px 35px 12px 35px;
+  font-size: 16px;
+  background-color: #68D2C4;
+  border: none;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.loginButton2:hover{
+  cursor: pointer;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+  outline:none;
+  padding: 12px 35px 12px 35px;
+  font-size: 16px;
+  background-color: #40847b;
+  border: none;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.error{
+  position: fixed;
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.error2{
+  position: fixed;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.errormsg{
+  background-color: white;
+  padding: 10px 20px 8px 20px;
+}
+
+.ok{
+  color: white;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  border: none;
+  background-color: #212121;
+  padding: 20px 20px 20px 20px;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  outline: none;
+}
+
+.headings{
+  font-size: 14px;
+  color: #7F7F7F;
+}

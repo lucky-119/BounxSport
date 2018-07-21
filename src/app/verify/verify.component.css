@@ -1,0 +1,136 @@
+.back1{
+  position: fixed;
+  height: 101%;
+  bottom: -1%;
+  right: -1%;
+}
+
+.back2{
+  position: fixed;
+  width: 101%;
+  bottom: -1%;
+  right: -1%;
+}
+
+.form{
+  position: relative;
+  width: 100%;
+  top: 30%;
+  left: 4%;
+  box-shadow: 1px 1px 2px 2px lightgrey;
+  background-color: white;
+  padding: 10px 20px 8px 20px;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.error{
+  position: fixed;
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.headings{
+  font-size: 15px;
+  color: #7F7F7F;
+}
+
+.overall{
+  position: absolute;
+  top: 27%;
+  left: 54%;
+  width: 35%;
+}
+
+.overall2{
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  right: 3%;
+  width: 79%;
+}
+
+.logo{
+  position: absolute;
+  width: 100px;
+  top: 0%;
+  left: 4%;
+}
+
+
+input{
+  font-size: 13px;
+  padding: 17px 3px 8px;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid lightgrey;
+  width: 97%;
+}
+
+
+
+.register{
+  color: white;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  top: 20%;
+  left: 4%;
+  box-shadow: 0px 0px 1px 1px darkgrey;
+  background-color: #212121;
+  padding: 20px 20px 20px 20px;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.register:hover{
+  color: white;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  top: 20%;
+  left: 4%;
+  box-shadow: 0px 0px 1px 1px darkgrey;
+  background-color: black;
+  padding: 20px 20px 20px 20px;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.error{
+  position: fixed;
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.errormsg{
+  background-color: white;
+  padding: 10px 20px 8px 20px;
+}
+
+.black{
+  position: fixed;
+  height: 102%;
+  bottom: -1%;
+  right: -1%;
+  opacity: 0.5;
+}
+
+.ok{
+  color: white;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  border: none;
+  background-color: #212121;
+  padding: 20px 20px 20px 20px;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  outline: none;
+}

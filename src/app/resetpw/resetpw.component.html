@@ -1,0 +1,27 @@
+<html (window:resize)="onResize($event)">
+<img id="bi" src="/assets/pics/Login-bg3.png" class="back1">
+<div id="overall" class="overall">
+<img src="/assets/pics/clubcoachlogo.png" class="logo"><br><br><br>
+<div class="form">
+  <p>Reset Password</p>
+  <br>
+  <div class="headings">
+    Password <span style="color: red" size="50">* </span><span style="font-size: 10px">(alphanumeric, min 8 characters, max 16 characters)</span><br>
+    <input #password type="password"><br><br>
+    Confirm Password <span style="color: red">* </span><br>
+    <input #cpassword type="password"><br><br><br><br>
+  </div>
+</div><br>
+<div class="register" (click)="reset(password.value,cpassword.value)">
+  RESET
+</div>
+</div>
+<img *ngIf="error" src="/assets/pics/black.jpg" class="black">
+<div *ngIf="error" class="error">
+<div class="errormsg">
+  <h3>{{popupmsg}}</h3>
+  <p class="headings">{{errormsg}}</p><br>
+</div>
+<button (click)="ok()" class="ok">OK</button>
+</div>
+</html>

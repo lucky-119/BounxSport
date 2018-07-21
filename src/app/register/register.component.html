@@ -1,0 +1,31 @@
+<html (window:resize)="onResize($event)" style="overflow-x: none">
+<div id="club" class="container1"
+onmouseover="document.getElementById('clubid2').style.opacity = 1;
+            document.getElementById('buttonClub').className='clickhover';"
+onmouseout="document.getElementById('clubid2').style.opacity = 0;
+            document.getElementById('buttonClub').className='clubclick';"
+>
+  <img  id="clubid" src="/assets/pics/BG_registration_club.png" class="club1">
+  <img  id="clubid2" src="/assets/pics/BG_registration_club_hover.png" class="club2">
+  <div class="clubreg">
+    CLUB<br>REGISTRATION<br><br>
+    <button id="buttonClub" (click)="clubclick()" class="clubclick">CLICK HERE</button>
+  </div>
+</div>
+
+<div id="coach" class="container2"
+onmouseover="document.getElementById('coachid2').style.opacity = 1;
+            document.getElementById('buttonCoach').className='clickhover';"
+onmouseout="document.getElementById('coachid2').style.opacity = 0;
+            document.getElementById('buttonCoach').className='coachclick';"
+>
+  <img id="coachid" src="/assets/pics/BG_registration_coach.png" class="coach1">
+  <img id="coachid2" src="/assets/pics/BG_registration_coach_hover.png" class="coach2">
+  <div class="coachreg">
+    COACH<br>REGISTRATION<br><br>
+    <button id="buttonCoach" (click)="coachclick()" class="coachclick">CLICK HERE</button>
+  </div>
+</div>
+<img *ngIf="Clicked" src="/assets/pics/black.jpg" class="black">
+<img *ngIf="Clicked" src="/assets/pics/ajax-loader.gif" class="load">
+</html>

@@ -1,0 +1,307 @@
+.top{
+  position: relative;
+  width: 102%;
+  height: 30px;
+  left: -1%;
+  top: 85px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid lightgrey;
+  overflow-y: none;
+}
+
+.buttons{
+  position: absolute;
+  left: 6%;
+  bottom: -3%;
+  color: grey;
+}
+
+.headingButton{
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding-bottom: 6px;
+  color: grey;
+}
+
+.headingButton2{
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  font-size: 17px;
+  color: black;
+  padding-bottom: 6px;
+  bottom: -1px;
+  outline: none;
+}
+
+.headingButton:hover{
+  background: transparent;
+  border: none;
+  font-size: 17px;
+  color: grey;
+  cursor: pointer;
+  padding-bottom: 6px;
+  outline: none;
+}
+.headingButton2:hover{
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  font-size: 17px;
+  color: black;
+  padding-bottom: 6px;
+  cursor: pointer;
+  outline: none;
+}
+
+.inside{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 85%;
+  top: 85px;
+  padding: 25px;
+  color: 	#252525;
+  overflow-y: none;
+}
+
+.profile1{
+  position: absolute;
+  width: 40%;
+  left: 0%;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.profile2{
+  position: absolute;
+  width: 55%;
+  right: 0%;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 25px;
+  font-size: 15px;
+  padding: 10px 20px 8px 20px;
+  overflow-y: scroll;
+  overflow-x: none;
+}
+
+.profile1change{
+  position: relative;
+  width: 100%;
+  left: 0%;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.profile2change{
+  position: relative;
+  width: 100%;
+  left: -20px;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 25px;
+  font-size: 15px;
+  padding: 10px 20px 8px 20px;
+  overflow-y: scroll;
+  overflow-x: none;
+}
+
+.button1{
+  position: relative;
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid lightgrey;
+    background: transparent;
+    width: 90%;
+    text-align: left;
+}
+
+
+.headings{
+  font-size: 14px;
+  color: #7F7F7F;
+}
+
+input{
+  font-size: 13px;
+  padding: 17px 3px 8px;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+}
+
+.register{
+  position: relative;
+  width: 80%;
+  box-shadow: 0px 0px 1px 1px darkgrey;
+  background-color: #212121;
+  padding: 5% 10% 5% 10%;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.register:hover{
+  position: relative;
+  width: 80%;
+  box-shadow: 0px 0px 1px 1px darkgrey;
+  background-color: black;
+  padding: 5% 10% 5% 10%;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.inputdropdown{
+  font-size: 13px;
+  padding: 17px 3px 8px;
+  outline: none;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  background-color: white;
+  width: 100%;
+  left: 5%;
+}
+
+.inputdropdown2{
+  position: absolute;
+  right: 3%;
+  font-size: 13px;
+  padding: 17px 3px 8px;
+  outline: none;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  background-color: white;
+  width: 47%;
+}
+
+.input{
+  font-size: 13px;
+  outline: none;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+  resize: none;
+}
+
+.user{
+  position: relative;
+  width: 135px;
+  height: 135px;
+  border: 3px solid #FE9953;
+  border-radius: 50%;
+  left: 0%;
+}
+
+.input2{
+  position: relative;
+  left: 50%;
+  font-size: 13px;
+  padding: 17px 3px 8px;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid lightgrey;
+  width: 50%;
+}
+
+.input3{
+  position: absolute;
+  right: 3%;
+  font-size: 13px;
+  padding: 17px 3px 8px;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid lightgrey;
+  width: 45%;
+}
+
+
+.add{
+  cursor: pointer;
+  color: #70CBC4;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.close{
+  font-size: 15px;
+  color: #70CBC4;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.black{
+  position: fixed;
+  height: 102%;
+  width: 102%;
+  bottom: -1%;
+  right: -1%;
+  left: -1%;
+  opacity: 0.5;
+  z-index: 5;
+}
+
+.error{
+  position: fixed;
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  z-index: 6;
+}
+
+.errormsg{
+  background-color: white;
+  padding: 10px 20px 8px 20px;
+  z-index: 6;
+}
+
+.ok{
+  color: white;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  border: none;
+  background-color: #212121;
+  padding: 20px 20px 20px 20px;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  outline: none;
+}
+
+.form{
+  position: relative;
+  width: 85%;
+  top: 0%;
+  left: 0%;
+  box-shadow: 1px 1px 2px 2px lightgrey;
+  background-color: white;
+  padding: 10px 20px 8px 20px;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,62 @@
+<html (window:resize)="onResize($event)">
+<img id="bi" src={{img}} class="back1">
+<div id='container' class="logo">
+  <img src="/assets/pics/lodo-logo.png">
+  <br><br><br>
+  <div *ngIf="log">
+    <input #username placeholder="Username" onfocus="this.placeholder=''" onblur="this.placeholder='Username'" name="Username"><br><br>
+    <input #password placeholder="Password" onfocus="this.placeholder=''" onblur="this.placeholder='Password'" name="Password" type="password"><br>
+    <div *ngIf="isnothidden">
+      <img src='/assets/pics/cross.png' class="cross" (click)="hide()">
+      <div class="vmsg">
+        <p class='paragraph'>{{data}}</p>
+      </div>
+    </div>
+    <br>
+    <button class="loginbutton" (click)="login(username.value,password.value)">LOGIN</button>
+    <br><br><br><br>
+    <button (click)="registerHere()" class="registerButton">Register Here</button><br><br>
+    <a class="forgotPassword" (click)="forgetpw()">Forgot Password? Click Here</a>
+  </div>
+  <div *ngIf="fw">
+    <br>
+    <a class="forgotPassword" style="color: lightgrey">Forgot Your Password? Just enter your registered email address to receive instructions for resetting your password.</a><br><br>
+    <input #email placeholder="Email" onfocus="this.placeholder=''" onblur="this.placeholder='Email'" name="Email"><br>
+    <div *ngIf="isnothiddenfw">
+      <img src='/assets/pics/cross.png' class="cross" (click)="hide()" style="left: 90%">
+      <div id="forget" class="vmsg" style="background-color: #F1585A">
+        <p id="forgett" class='paragraph' style="color: white">{{forgetdata}}</p>
+      </div>
+    </div>
+    <br>
+    <button class="submitbutton" (click)="submit(email.value)">SUBMIT</button><br><br><br><br><br>
+    <button class="loginButton2" (click)="loginn()">Login Here</button><br><br>
+    <a class="forgotPassword" (click)="registerHere()">Don't have an account? Register here</a>
+  </div>
+  <div *ngIf="reset">
+    <br>
+    <a class="forgotPassword" style="color: lightgrey">A verification code has been sent to your email. Enter the verification code to reset your password.</a><br><br>
+    <input #code placeholder="Verification Code" onfocus="this.placeholder=''" onblur="this.placeholder='Verification Code'" name="Code"><br>
+    <div *ngIf="wrongcode">
+      <img src='/assets/pics/cross.png' class="cross" (click)="hide()" style="left: 90%">
+      <div id="forget" class="vmsg" style="background-color: #F1585A">
+        <p id="forgett" class='paragraph' style="color: white">Verification Code is Invalid</p>
+      </div>
+    </div>
+    <br>
+    <button class="submitbutton" (click)="submitreset(code.value)">SUBMIT</button><br><br><br><br><br>
+    <button class="loginButton2" (click)="loginn()">Login Here</button><br><br>
+    <a class="forgotPassword" (click)="registerHere()">Don't have an account? Register here</a>
+  </div>
+</div>
+<img *ngIf="Clicked" src="/assets/pics/black.jpg" class="black">
+<img *ngIf="Clicked" src="/assets/pics/ajax-loader.gif" class="load">
+<img *ngIf="error" src="/assets/pics/black.jpg" class="black">
+<div id="error" *ngIf="error" class="error">
+<div class="errormsg">
+  <h3>{{popupmsg}}</h3>
+  <p class="headings">{{errormsg}}</p><br>
+</div>
+<button (click)="ok()" class="ok">OK</button>
+</div>
+</html>

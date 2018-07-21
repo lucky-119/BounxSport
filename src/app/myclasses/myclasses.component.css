@@ -1,0 +1,92 @@
+.top{
+  position: relative;
+  width: 102%;
+  height: 30px;
+  left: -1%;
+  top: 85px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid lightgrey;
+  overflow-y: none;
+}
+
+.buttons{
+  position: absolute;
+  left: 6%;
+  bottom: -3%;
+  color: grey;
+}
+
+.headingButton{
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding-bottom: 6px;
+  color: grey;
+}
+
+.headingButton2{
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  font-size: 17px;
+  color: black;
+  padding-bottom: 6px;
+  bottom: -1px;
+  outline: none;
+}
+
+.headingButton:hover{
+  background: transparent;
+  border: none;
+  font-size: 17px;
+  color: grey;
+  cursor: pointer;
+  padding-bottom: 6px;
+  outline: none;
+}
+.headingButton2:hover{
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  font-size: 17px;
+  color: black;
+  padding-bottom: 6px;
+  cursor: pointer;
+  outline: none;
+}
+
+.inside{
+  position: relative;
+  top: 93px;
+  left: 48%;
+  transform: translate(-50%);
+  width: 85%;
+  top: 112px;
+  padding: 25px;
+  color: 	#252525;
+  overflow-y: none;
+}
+
+.names{
+  width: 100%;
+  position: absolute;
+  left: 1%;
+  font-size: 13px;
+  color: grey;
+  word-spacing: 300px;
+}
+
+.classes{
+  position: relative;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+
+}

@@ -1,0 +1,455 @@
+.back{
+  position: fixed;
+  width:100%;
+  left:0%;
+  top: -5px;
+  height: 90px;
+  z-index:1;
+  background-image: url('/assets/pics/a.png');
+}
+
+.menuicon{
+  position: absolute;
+  left: 25px;
+  top: 35px;
+  width: 20px;
+}
+
+.menuicon:hover{
+  position: absolute;
+  left: 25px;
+  top: 35px;
+  cursor: pointer;
+}
+
+.tennisicon{
+  position: absolute;
+  right: 15px;
+  top: 28px;
+  background-color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border-color: black;
+}
+
+.notificationicon{
+  position: absolute;
+  right: 115px;
+  top: 28px;
+  background-color: white;
+  width: 28px;
+  height: 28px;
+  border-color: black;
+  border-radius: 100%;
+}
+
+.icon{
+  position: absolute;
+  right: 138px;
+  top: 33px;
+  background-color: #68D2C4;
+  width: 18px;
+  height: 18px;
+  border-color: black;
+  border-radius: 100%;
+}
+
+.ntimage{
+  position: absolute;
+  width: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.sidemenu1{
+  position: fixed;
+  width: 330px;
+  left: -330px;
+  top: -1%;
+  height: 101%;
+  background-color: white;
+  transition: 0.4s;
+  z-index:3;
+}
+
+.sidemenu2{
+  position: fixed;
+  width: 330px;
+  height: 101%;
+  left: 0%;
+  top: -1%;
+  background-color: white;
+  transition: 0.4s;
+  z-index:3;
+}
+
+.sidemenu22{
+  position: fixed;
+  width: 100%;
+  height: 101%;
+  left: 0%;
+  top: -1%;
+  background-color: white;
+  transition: 0.4s;
+  z-index:3;
+}
+
+.black{
+  position: fixed;
+  width: 5000px;
+  height: 5000px;
+  bottom: -1%;
+  right: -1%;
+  opacity: 0.3;
+  z-index:3;
+}
+
+.cross{
+  position: absolute;
+  left: 25px;
+  top: 45px;
+  width: 15px;
+}
+
+.cross:hover{
+  position: absolute;
+  left: 25px;
+  top: 45px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.logo{
+  position: absolute;
+  left: 60px;
+  top: 37.5px;
+  width: 100px;
+}
+
+.logo2{
+  position: absolute;
+  left: 70px;
+  top: 27.5px;
+  width: 80px;
+}
+
+.text{
+  position: absolute;
+  color: #7F7F7F;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  left: 25px;
+  top: 110px;
+  width: 85%;
+}
+
+.belowtext{
+  position: absolute;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  color: #7F7F7F;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: white;
+}
+
+.topics{
+  position: absolute;
+  top: 220px;
+  width: 100%;
+  left: -25px;
+}
+
+ul li{
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: black;
+  padding: 15px;
+  list-style-type: none;
+  border-bottom: 1.5px solid lightgrey;
+  left: 5px;
+}
+
+ul li:hover{
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #68D2C4;
+  padding: 15px;
+  list-style-type: none;
+  border-bottom: 1.5px solid lightgrey;
+  left: 5px;
+  cursor: pointer;
+}
+
+.sport{
+  position: absolute;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #7F7F7F;
+  right: 50px;
+  top: 23px;
+}
+
+.bottom
+{
+  background-image: url("/assets/pics/Login-bg3.png");
+  position: fixed;
+  bottom:0%;
+  height: 50px;
+  width: 101%;
+  left: -1%;
+  z-index:3;
+}
+
+.searchButton{
+  height:100%;
+  background-color: black;
+  left:0%;
+  border: solid black;
+  width: 25%;
+  outline: none;
+  color: white;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  min-width: 160px;
+}
+
+.searchButton:hover{
+  height:100%;
+  background-color: black;
+  left:0%;
+  border: solid black;
+  width: 25%;
+  outline: none;
+  color: white;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  min-width: 160px;
+}
+
+
+.bsearch{
+  position: fixed;
+  background-color: white;
+  width: 21.1%;
+  left: 0%;
+  bottom: 50px;
+  height: 80%;
+  padding: 20px;
+  overflow-y: scroll;
+  z-index:3;
+  min-width: 161px;
+}
+
+.bsearch2{
+  position: fixed;
+  background-color: white;
+  width: 90%;
+  left: 0%;
+  top: 0px;
+  bottom: 50px;
+  height: 95%;
+  padding: 20px;
+  overflow-y: scroll;
+  z-index:3;
+  min-width: 161px;
+}
+
+.searching{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #7F7F7F;
+    font-size: 14px;
+    background-color: white;
+}
+
+input{
+  border-bottom: 1px solid lightgrey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  outline: none;
+  font-size: 14px;
+  padding: 4px;
+}
+
+.s{
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid black;
+  background-color: transparent;
+  outline: none;
+  height: 50px;
+  color: black;
+}
+
+.s:hover{
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid black;
+  background-color: transparent;
+  outline: none;
+  height: 50px;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.inputdropdown{
+  font-size: 13px;
+  padding: 17px 3px 8px;
+  outline: none;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  width: 220%;
+  height: 30px;
+  background-color: white;
+}
+
+.blockdate{
+  position: fixed;
+  background-color: white;
+  width: 22%;
+  right: 0%;
+  bottom: 50px;
+  height: 80%;
+  padding: 20px;
+  overflow-y: scroll;
+  z-index:3;
+  min-width: 161px;
+}
+
+.blockdate2{
+  position: fixed;
+  background-color: white;
+  width: 90%;
+  top: 0px;
+  right: 0%;
+  height: 95%;
+  padding: 20px;
+  overflow-y: scroll;
+  z-index:3;
+  min-width: 161px;
+}
+
+.blockButton{
+  position: absolute;
+  height:100%;
+  background-color: black;
+  right:0%;
+  border: solid black;
+  width: 25%;
+  outline: none;
+  color: white;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  min-width: 160px;
+}
+
+.blockButton:hover{
+  position: absolute;
+  height:100%;
+  background-color: black;
+  right:0%;
+  border: solid black;
+  width: 25%;
+  outline: none;
+  color: white;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  min-width: 160px;
+}
+
+.input{
+  font-size: 13px;
+  outline: none;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+  resize: none;
+}
+
+.top{
+  position: relative;
+  width: 102%;
+  height: 30px;
+  left: -1%;
+  top: 85px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid lightgrey;
+  overflow-x: none;
+}
+
+.buttons{
+  position: absolute;
+  left: 6%;
+  bottom: -3%;
+  color: grey;
+}
+
+.headingButton2{
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  font-size: 17px;
+  color: black;
+  padding-bottom: 6px;
+  outline: none;
+}
+
+.headingButton2:hover{
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  font-size: 17px;
+  color: black;
+  padding-bottom: 6px;
+  cursor: pointer;
+  outline: none;
+}
+
+.hove{
+  cursor: pointer;
+  color: #7F7F7F;
+  text-decoration: underline white;
+}
+
+.hove:hover{
+  cursor: pointer;
+  color: #7F7F7F;
+}
+
+.policy{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 85%;
+  top: 112px;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 2px 2px lightgrey;
+  padding: 25px;
+  color: 	#252525;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 25px;
+  font-size: 13px;
+}

@@ -1,0 +1,58 @@
+.top{
+  position: relative;
+  width: 102%;
+  height: 30px;
+  left: -1%;
+  top: 85px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid lightgrey;
+  overflow-x: none;
+}
+
+.buttons{
+  position: absolute;
+  left: 6%;
+  bottom: -3%;
+  color: grey;
+}
+
+.headingButton2{
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  font-size: 17px;
+  color: black;
+  padding-bottom: 6px;
+  outline: none;
+}
+
+.headingButton2:hover{
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  font-size: 17px;
+  color: black;
+  padding-bottom: 6px;
+  cursor: pointer;
+  outline: none;
+}
+
+.inside{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 85%;
+  top: 85px;
+  padding: 25px;
+  color: 	#252525;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: bold;
+}

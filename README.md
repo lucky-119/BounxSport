@@ -6,6 +6,6 @@ This is a web application built with MEAN stack.
 
 1) Connect with mongodb database
 2) Add an email in coachreg.js and login.js
-3) Run Node app
+3) Run 'ng build' and then 'node app'
 
 

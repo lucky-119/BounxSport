@@ -1,4 +1,4 @@
-# Bounx
+# PlaySport
 
 This is a web application built with MEAN stack.
 
